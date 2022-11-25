@@ -7,11 +7,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+  <link rel='stylesheet' id='style-css'  href='mycss.css?ver=5.6.10' type='text/css' media='all' />
 </head>
 <body>
 <style>
-/**  @media screen and (min-width: 792px)
+  /**  @media screen and (min-width: 792px)
   {
     .hidden {
       display: none !important;
@@ -19,29 +19,47 @@
     }
   }
   */
-  div
+  body 
   {
-    background-color: rgb(129, 129, 129);
+    background-image: url("picz/bgpattern.jpg");
+    background-repeat: repeat;
+    text-align: center;
+  }
+
+  a {color: #e69200;}pre {border-left: 5px solid #e69200;}
+  .post .more-link {background:#e69200;}
+  .nav li:hover > a, .nav .current-menu-item a, .nav .current_page_item a, .nav .current-page-ancestor a {color: #e69200;}
+  #content .comments-some a {color: #e69200;}a:hover {color: #777;}.header-text-color, #reply-title {color: #232527;}
+  body {color: #232527;}
+
+  .header-nav
+  {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
   }
 </style>
-<div class="container">
+<div class="container-fluid">
 
 <div class="row">
-  <div class="hidden-xs hidden-sm col-md-2 col-lg-3 bordertest"></div>
-  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6">
-    <img src="\picz\headerimg.png" alt="Header Image">
+    <img src="picz/headerimg.png"alt="Header Image">
+    <nav role="navigation" class="header-nav">
+      <div class="menu-duplex-container">
+        <ul id="menu-duplex" class="nav">
+        <li id="menu-item-4125" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4125"><a href="blog/index.html">Blog</a><span class="divider">/</span></li>
+        <li id="menu-item-4118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4118"><a href="games/index.html">Games</a><span class="divider">/</span></li>
+        <li id="menu-item-4116" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4116"><a href="about/index.html">About</a><span class="divider">/</span></li>
+        <li id="menu-item-4139" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4139"><a href="contact/index.html">Contact</a><span class="divider">/</span></li>
+        </ul>
+      </div>	    	      
+    </nav>
   </div>
-  <div class="hidden-xs hidden-sm col-md-2 col-lg-3 bordertest"></div>
 </div>
 <div class="row">
-  <div class="hidden-xs hidden-sm col-md-2 col-lg-3 bordertest">1</div>
-  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6">2</div>
-  <div class="hidden-xs hidden-sm col-md-2 col-lg-3 bordertest">3</div>
 </div>
 <div class="row">
-  <div class="hidden-xs hidden-sm col-md-2 col-lg-3 bordertest">1</div>
-  <div class="col-xs-12 col-sm-12 col-md-8 col-lg-6">2</div>
-  <div class="hidden-xs hidden-sm col-md-2 col-lg-3 bordertest">3</div>
 </div>
 
 

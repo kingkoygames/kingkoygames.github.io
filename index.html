@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel='stylesheet' id='font_awesome_css-css'  href='fontawesome/font-awesomeb3e8.css?ver=0.1' type='text/css' media='screen' />
   <link rel='stylesheet' id='style-css'  href='thecss.css' type='text/css' media='all' />
   <script src="mycode.js"></script>
 <style>
@@ -35,10 +36,7 @@
 
   #contentz
   {
-    background-color: #a2bdda;
     min-height: 300px;
-    
-
   }
   .row {
     margin: 0px !important;
@@ -48,6 +46,47 @@ li:focus, a:focus,div:focus
 {
   background-color: #4a4e864d!important;
 }
+
+.content
+{
+  background-color: #faefcf;
+  border-color: #b09e76;
+  border-style: solid;
+  border-width: 0 10px 10px;
+  margin: 0;
+  padding: 0;
+}
+.content p
+{
+  text-align: left;
+  margin: 0 0 28px;
+}
+
+.content .entry-meta,
+.content .entry-meta ul,
+.content .entry-meta a,
+.content .entry-meta li
+{
+  font-family: 'Abel', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  color: #bbb;
+  margin: 2em 0 0;
+  width: 100%;
+  font: 15px/1.8em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline;
+
+}
+.content .entry-meta li
+{
+  padding: 0 9px;
+}
+
+.entry-meta
+{
+  padding: 0 9px;
+}
+
 
 </style>
 </head>
@@ -62,10 +101,10 @@ li:focus, a:focus,div:focus
         <nav role="navigation" class="header-nav">
           <div class="menu-duplex-container">
             <ul id="menu-duplex" class="nav">
-            <li id="headblog"><a href="#contentz" >Blog</a><span class="divider">/</span></li>
-            <li id="headgames"><a href="#contentz">Games</a><span class="divider">/</span></li>
-            <li id="headabout"><a href="#contentz">About</a><span class="divider">/</span></li>
-            <li id="headcontact"><a href="#contentz">Contact</a><span class="divider">/</span></li>
+            <li id="headblog"><a href="#" >Blog</a><span class="divider">/</span></li>
+            <li id="headgames"><a href="#">Games</a><span class="divider">/</span></li>
+            <li id="headabout"><a href="#">About</a><span class="divider">/</span></li>
+            <li id="headcontact"><a href="#">Contact</a><span class="divider">/</span></li>
             </ul>
           </div>	    	      
         </nav>
@@ -77,9 +116,8 @@ li:focus, a:focus,div:focus
   
  
   <div class="row" >
-    <div id="contentz-wrapper" style="padding-left: 15px;padding-right: 15px;">
+    <div id="contentz-wrapper">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 center-block" id="contentz">
-            
       </div>
     </div>
   </div>

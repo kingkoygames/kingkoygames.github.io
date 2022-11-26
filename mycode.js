@@ -1,5 +1,20 @@
 $(document).ready(function(){
     $("#headblog").click(function(){
-        $("#contentz").load("test.txt")
+        $("#contentz").load("blog.html")
+    });
+});
+$(document).ready(function(){
+    $("#headgames").click(function(){
+        $("#contentz").load("games.html")
+    });
+});
+$(document).ready(function(){
+    $("#headabout").click(function(){
+        $("#contentz").load("about.html")
+    });
+});
+$(document).ready(function(){
+    $("#headcontact").click(function(){
+        $("#contentz").load("contact.html")
     });
 });
